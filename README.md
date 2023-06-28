@@ -5,7 +5,7 @@ I changed your structure back to a more base setup leaving your page files and u
 and moving your test classes and resources back into the `test` package. This allowed me to better visualize the project
 structure which later allowed me to figure out the issue with the jar files.
 
-it's also important that we don't add compiled code, compiler settings or, or test results to repositories as they take
+it's also important that we don't add compiled code, compiler settings or, test results to repositories as they take
 up tons of space and can sometimes include things like passwords and config files that we want to keep to ourselves.
 we can handle this by adding a .gitignore file with everything we want to leave out or keep local then by removing the 
 offending files from our git tracking.
