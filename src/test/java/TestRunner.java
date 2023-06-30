@@ -1,5 +1,3 @@
-package testClasses;
-
 import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -26,8 +24,8 @@ public class TestRunner {
 //
 //	}
 //	
-	
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
         TestNG testng = new TestNG();
         List<String> list = new ArrayList<>();
         //String absolutepath=new File("src/main/resources/testng.xml").getAbsolutePath();
