@@ -33,7 +33,7 @@ public class TestRunner {
         ////InputStream stream = TestRunner.class.getResourceAsStream("/testng.xml");
         //System.out.println(stream != null);
         //stream = TestRunner.class.getClassLoader().getResourceAsStream("testng.xml");
-        list.add(".//src//main//resources//testng.xml");
+        list.add(".//src//test//resources//testng.xml");
         testng.setTestSuites(list);
         testng.run();
     }

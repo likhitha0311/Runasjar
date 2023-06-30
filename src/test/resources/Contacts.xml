@@ -12,7 +12,7 @@
     </listeners>
     <test name="Tst1">
         <classes>
-            <class name="testClasses.ContactsRegression"/>
+            <class name="ContactsRegression"/>
         </classes>
     </test>
 </suite>
