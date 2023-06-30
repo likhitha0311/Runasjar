@@ -43,5 +43,4 @@ To get java to recognize all these jars and the code within we need to define th
 `--class-path` which takes a `:` seperated list of jars. Then we'll use the testNG package `org.testng.TestNG` with
 options `-testjar` and `-xmlpathinjar` to kick off the test run below is the exact command line to achieve this:
 ```
-java --class-path RunAsJar-0.0.1-SNAPSHOT-jar-with-dependencies.jar:RunAsJar-0.0.1-SNAPSHOT.jar:RunAsJar-0.0.1-SNAPSHOT-tests.jar org.testng.TestNG -testjar RunAsJar-0.0.1-SNAPSHOT-tests.jar -xmlpathinjar resources/Contacts.xml
-```
+╰─ java --class-path RunAsJar-0.0.1-SNAPSHOT-jar-with-dependencies.jar:RunAsJar-0.0.1-SNAPSHOT.jar:RunAsJar-0.0.1-SNAPSHOT-tests.jar org.testng.TestNG -testjar RunAsJar-0.0.1-SNAPSHOT-tests.jar -xmlpathinjar Contacts.xml```
