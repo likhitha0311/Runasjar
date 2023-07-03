@@ -4,7 +4,6 @@
 
 
     <suite-files>
-        <suite-file path=".//src//main//resources//Contacts.xml"/>
+        <suite-file path="Contacts.xml"/>
     </suite-files>
 </suite>
-
