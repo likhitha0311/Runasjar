@@ -17,8 +17,6 @@ import org.testng.ITestResult;
 
 
 public class ListenerClass implements ITestListener
-
-
 {
 	
 	public static WebDriver driver;
@@ -27,7 +25,7 @@ public class ListenerClass implements ITestListener
 	    @Override		
 	    public void onTestFailure(ITestResult result) {					
 	   			
-	        	System.out.println("Testcase has been failed"+result.getName());
+	        	System.out.println("Testcase has been failed "+result.getName());
 	        	try {
 					takeScreenshot(driver, result);
 				} catch (IOException e) {
@@ -44,7 +42,7 @@ public class ListenerClass implements ITestListener
 
 	    @Override		
 	    public void onTestStart(ITestResult result) {					
-	    	System.out.println("Testcase has been started"+result.getName());					
+	    	System.out.println("Testcase has been started "+result.getName());
 	        		
 	    }		
 

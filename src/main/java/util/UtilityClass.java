@@ -10,11 +10,33 @@ public class UtilityClass
 	{
 		
 		Random randomGenerator = new Random();  
-		int randomInt = randomGenerator.nextInt(10000); 
+		int randomInt = randomGenerator.nextInt(1000000);
 		String email="username"+randomInt+"@gmail.com";
 		
 		return email;
 		
+	}
+
+	public static  String companyNameGenerator()
+	{
+
+		Random randomGenerator = new Random();
+		int randomInt = randomGenerator.nextInt(1000000);
+		String company="Company-"+randomInt;
+
+		return company;
+
+	}
+
+	public static  String opportunityNameGenerator()
+	{
+
+		Random randomGenerator = new Random();
+		int randomInt = randomGenerator.nextInt(1000000);
+		String opportunity="Opportunity-"+randomInt;
+
+		return opportunity;
+
 	}
 
 }

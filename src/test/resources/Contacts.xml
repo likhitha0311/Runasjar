@@ -4,15 +4,20 @@
     <parameter name="os" value="windows"></parameter>
     <parameter name="url" value="https://www.google.com"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="loginurl" value="https://www.facebook.com"></parameter>
-    <parameter name="username" value="likhitha"></parameter>
-    <parameter name="password" value="password"></parameter>
+    <parameter name="loginUrl" value="https://test-designer.lovethat.design/dashboard"></parameter>
+    <parameter name="username" value="mohamed@28lightbulbs.com"></parameter>
+    <parameter name="password" value="mohamed321"></parameter>
     <listeners>
         <listener class-name="util.ListenerClass"></listener>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>
     </listeners>
+
     <test name="Tst1">
+
         <classes>
             <class name="ContactsRegression"/>
+
+
         </classes>
     </test>
 </suite>
